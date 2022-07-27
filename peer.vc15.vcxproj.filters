@@ -16,7 +16,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mongoose-master\mongoose.c">
+    <ClCompile Include="deps\mongoose-master\mongoose.c">
       <Filter>mongoose</Filter>
     </ClCompile>
     <ClCompile Include="bonjour.cpp">
@@ -30,10 +30,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="mongoose-master\mongoose.h">
+    <ClInclude Include="deps\mongoose-master\mongoose.h">
       <Filter>mongoose</Filter>
     </ClInclude>
-    <ClInclude Include="rapidjson-master\include\rapidjson\document.h">
+    <ClInclude Include="deps\rapidjson-master\include\rapidjson\document.h">
       <Filter>rapidjson</Filter>
     </ClInclude>
     <ClInclude Include="include\bonjour.h">

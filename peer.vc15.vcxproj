@@ -60,7 +60,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(BONJOUR_SDK_HOME)include;./mongoose-master;./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BONJOUR_SDK_HOME)include;./deps/mongoose-master;./include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -83,7 +83,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(BONJOUR_SDK_HOME)include;./mongoose-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(BONJOUR_SDK_HOME)include;./deps/mongoose-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -97,7 +97,7 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="mongoose-master\mongoose.c" />
+    <ClCompile Include="deps\mongoose-master\mongoose.c" />
     <ClCompile Include="bonjour.cpp" />
     <ClCompile Include="peer.cpp" />
     <ClCompile Include="rest.cpp" />
@@ -106,8 +106,8 @@
     <ClInclude Include="include\bonjour.h" />
     <ClInclude Include="include\peer.h" />
     <ClInclude Include="include\rest.h" />
-    <ClInclude Include="mongoose-master\mongoose.h" />
-    <ClInclude Include="rapidjson-master\include\rapidjson\document.h" />
+    <ClInclude Include="deps\mongoose-master\mongoose.h" />
+    <ClInclude Include="deps\rapidjson-master\include\rapidjson\document.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
