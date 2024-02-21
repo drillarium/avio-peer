@@ -239,3 +239,6 @@ deps/mongoose-master/examples/zephyr/websocket-server/Makefile
 deps/mongoose-master/examples/zephyr/websocket-server/prj.conf
 deps/mongoose-master/examples/zephyr/websocket-server/src/certs.h
 deps/mongoose-master/examples/zephyr/websocket-server/src/main.c
+.vs/peer.vc15/v15/ipch/AutoPCH/219c964dda46676c/PEER.ipch
+.vs/peer.vc15/v15/ipch/AutoPCH/8e9b88776afd3507/BONJOUR.ipch
+.vs/peer.vc15/v15/ipch/AutoPCH/b892d6ffe0d9256e/REST.ipch
